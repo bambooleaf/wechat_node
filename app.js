@@ -57,4 +57,9 @@ app.use(function(err, req, res, next) {
 });
 
 
+app.listen(9000,function(){
+  console.log("listen port * 9000")
+})
+
+
 module.exports = app;
