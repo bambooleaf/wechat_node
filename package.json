@@ -14,6 +14,14 @@
     "express": "~4.12.4",
     "jade": "~1.9.2",
     "morgan": "~1.5.3",
-    "serve-favicon": "~2.2.1"
+    "serve-favicon": "~2.2.1",
+    "express-xml-bodyparser":"~0.0.7",
+    "wechat-crypto": "0.0.2",
+    "ejs":">=1.0.0",
+    "urllib":">=2.3.5",
+    "bluebird":">=2.9.27",
+    "socket.io":"*",
+    "cheerio":"0.19.0",
+    "request":"2.57.0"
   }
 }
