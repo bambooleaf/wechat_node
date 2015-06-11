@@ -38,7 +38,8 @@ var app = {
 			fn.init();
 		},
 		chatroom: function() {
-			console.log("chatroom");
+			var fn = require("./lib/chatRoom")();
+			fn.init();
 		},
 		cheerio: function() {
 			console.log("cheerio");
