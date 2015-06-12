@@ -7,9 +7,10 @@
     <title>bambooleaf chat room</title>
 
     <!-- Bootstrap -->
- <!--    <link rel="stylesheet" href="http://cdnjscn.b0.upaiyun.com/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="http://cdnjscn.b0.upaiyun.com/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"> -->
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/qx_chat.css">
-     <link rel="stylesheet" href="../css/jscrollpane1.css"> -->
+     <link rel="stylesheet" href="../css/jscrollpane1.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +34,7 @@
                 <div class="panel-body chat-body">
                     <div class="msg-list-body">
 
-                       <div id="jp-container" class="jp-container">
+                       <div id="jp-container" class="jp-container" >
             
                         <div class="talk_recordboxme">
                             <div class="user"><img src="images/thumbs/15.jpg"/>33</div>
@@ -120,7 +121,7 @@
                     &nbsp;在线名单
                 </div>
                 <div class="panel-body list-body">
-                    <table class="table table-hover list-table">
+                    <table class="table table-hover list-table" id = "userList">
                         <!-- <tr>
                       <td>test</td>
                         </tr> -->
@@ -164,6 +165,7 @@
     </div>
 </div> -->
 <script src="//cdnjscn.b0.upaiyun.com/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
 <!-- <script src="//cdnjscn.b0.upaiyun.com/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
 <script src="../javascripts/chat_client.js"></script>
 <!-- <script src="//cdnjscn.b0.upaiyun.com/libs/jquery/1.11.1/jquery.min.js"></script>
