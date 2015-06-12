@@ -288,6 +288,15 @@ a{blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免�
 	text-align: center;
 	display:inline;
 }
+
+/*系统提示样式*/
+.jp-container .talk_recordboxsys{
+	color:gray;
+	font-size: 60%;
+	margin: 5px;
+	text-align: center;
+}
+
 .talk_time{
 	color: #666;
 	text-align: right;
