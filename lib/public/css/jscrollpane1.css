@@ -270,7 +270,7 @@ a{blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免�
 .jp-container .talk_recordboxme h3{
 	font-size:14px;
 	padding:2px 0 5px 0;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	font-weight: 100;
 	color:#333333;
 	
