@@ -42,7 +42,8 @@ var app = {
 			fn.init();
 		},
 		cheerio: function() {
-			console.log("cheerio");
+			var fn = require("./lib/wechatCheerio")();
+			fn.init();
 		}
 
 	},
